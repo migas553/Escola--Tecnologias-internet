@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <section>
+    <article>
+        <h1>Formulário</h1>
+
+            <form>
+                <fieldset>
+                    <legend>Dados pessoais</legend>
+                <p>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" required>
+                </p>
+                <p>
+                    <label for="idade">Idade:</label>
+                    <input type="number" name="idade" required>
+                </p>
+                <p>
+                    <label for="Data de Nascimento" >Data de Nascimento:</label>
+                    <input type="date" name="Data de Nascimento" min="1900-01-01" max="2019-12-31" required>
+                </p>
+                <p>
+                    <label for="Endereço" >Endereço:</label>
+                    <input type="text" name="Endereço" required>   
+                </p>
+                <p>
+                    <label for="Código Postal">Código Postal:</label>
+                    <input type="text" name="Código Postal" pattern="\d{5}-\d{3}" required>
+                </p>
+                <p>
+                    <label for="Localidade">Cidade:</label>
+                    <select name="Localidade">
+                        <option value="1">Lisboa</option>
+                        <option value="2">Porto</option>
+                        <option value="3">Coimbra</option>
+                    </select>
+
+                </p>
+                <p>
+                    <label for="Telefone">Telefone:</label>
+                    <input type="tel" name="Telefone" pattern="\d{9}" maxlength="9" required>
+                </p>
+                <p>
+                    <label for="Email">Email:</label>
+                    <input type="email" name="Email" required>
+                </p>
+                <p>
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" required>
+                </p>
+                <p>
+                    <label for="Sexo">Sexo:</label>
+                    <input type="radio" name="Sexo" value="1">Masculino
+                    <input type="radio" name="Sexo" value="2">Feminino
+                </p>
+                <p>
+                    <label for="Notas">Notas:</label>
+                    <br>
+                    <textarea name="Notas" required rows="5" cols="50"  placeholder="Escreva aqui as suas notas"></textarea>
+                </p>
+                <p>
+                    <button type="submit">Submeter</button>
+                    <button type="reset">Limpar</button>
+                </p>
+            </form>
+
+            </fieldset>
+    </article>
+    </section>
+
+</body>
+</html>

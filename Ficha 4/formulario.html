@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <article>
+            <form>
+                <fieldset>
+                    <legend>Dados pessoais</legend>
+                    <p>
+                        <label for="nome">Nome:</label> 
+                        <BR>
+                        <input type="text" name="nome" required>
+                    </p>
+                    <p>
+                        <label for="idade">Idade:</label>
+                        <BR>
+                        <input type="number" name="idade" required> 
+                    </p>
+            </form>
+        </article>
+        <article>
+        <form>
+                <fieldset>
+                    <legend>Dados profissionais</legend>
+                    <p>
+                        <label for="Escolaridade">Escolaridade:</label>
+                        <BR>
+                        <select name="escolaridade">
+                            <option value="1">Ensino Básico</option>
+                            <option value="2">Ensino Secundário</option>
+                            <option value="3">Ensino Superior</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="Área de Atuação">Área de Atuação:</label>	
+                        <BR>
+                        <input type="radio" name="Area de Atuação" value="1">Direção
+                        <input type="radio" name="Area de Atuação" value="2">Financeiro
+                        <input type="radio" name="Area de Atuação" value="3">Recepção                      </p>
+        </form>        
+        </article>
+        <article>
+            <p>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </p>
+        </article>
+    </section>
+    
+</body>
+</html>

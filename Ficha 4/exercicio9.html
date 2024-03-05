@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheat Sheet</title>
+</head>
+<style>
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 8px;
+        text-align: left;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+</style>
+<body>
+<section>
+    <center>
+        <h1><big>HTML Cheat Sheet</big></h1>
+    </center>
+
+    <article id="form">
+        <h1>Formulario &lt; form &gt;</h1>
+        <p>
+            A tag &lt; form &gt; é usada para criar um formulário para entrada de dados do utilizador.
+            <br>
+            O formulário pode conter vários tipos de campos de entrada, como caixas de texto, botões de opção, caixas de verificação, botões de envio, etc.
+            A tag form tem vários atributos, como action, method, target, novalidate, autocomplete, etc.
+        </p>
+        <h3>Atributos:</h3>
+        <table>
+            <tr>
+                <th>Atributo</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td>action</td>
+                <td>Define para onde os dados do formulário devem ser enviados.</td>
+            </tr>
+            <tr>
+                <td>method</td>
+                <td>Define o método HTTP para enviar os dados do formulário.</td>
+            </tr>
+            <tr>
+                <td>target</td>
+                <td>Define onde abrir o resultado do envio do formulário.</td>
+            </tr>
+            <tr>
+                <td>novalidate</td>
+                <td>Define que o formulário não deve ser validado quando enviado.</td>
+            </tr>
+            <tr>
+                <td>autocomplete</td>
+                <td>Define se o preenchimento automático está ativado no formulário.</td>
+            </tr>
+            <tr>
+                <td>enctype</td>
+                <td>Define como os dados do formulário devem ser codificados ao enviá-los para o servidor.</td>
+            </tr>
+
+        </table>
+    </article>
+
+        <h1>Fieldset &lt; fieldset &gt;</h1>
+        <p>
+            A tag &lt; fieldset &gt; é usada para agrupar elementos relacionados em um formulário.
+            <br>
+            O elemento &lt; fieldset &gt; desenha uma caixa ao redor dos elementos relacionados.
+            <br>
+            A tag fieldset tem vários atributos, como form, name, disabled, etc.
+        </p>
+        <h3>Atributos:</h3>
+        <table>
+            <tr>
+                <th>Atributo</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td>form</td>
+                <td>Define um ou mais formulários aos quais o grupo de campos pertence.</td>
+            </tr>
+            <tr>
+                <td>name</td>
+                <td>Define o nome do grupo de campos.</td>
+            </tr>
+            <tr>
+                <td>disabled</td>
+                <td>Define que o grupo de campos deve ser desativado.</td>
+            </tr>
+        </table>
+    </article>
+    <article id="label">
+        <h1>Label &lt; label &gt;</h1>
+        <p>
+            A tag &lt; label &gt; define um rótulo para muitos elementos de formulário.
+            <br>
+            O elemento &lt; label &gt; não realiza nenhuma ação por si só quando clicado, mas pode ser associado a um elemento de formulário, como um campo de texto, botão de rádio, etc.
+            <br>
+            O rótulo melhora a usabilidade do formulário, permitindo que o utilizador clique no rótulo para selecionar o elemento de formulário.
+        </p>
+        <h3>Atributos:</h3>
+        <table>
+            <tr>
+                <th>Atributo</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td>for</td>
+                <td>Define qual elemento de formulário está associado ao rótulo.</td>
+            </tr>
+            <tr>
+                <td>form</td>
+                <td>Define um ou mais formulários aos quais o rótulo pertence.</td>
+            </tr>
+
+        </table>
+    </article>
+    <article id="input">
+        <h1>Input &lt; input &gt;</h1>
+        <p>
+            A tag &lt; input &gt; é usada para criar um controle interativo para formulários baseados na Web para aceitar dados do utilizador.
+            <br>
+            O atributo type especifica o tipo de elemento de formulário a ser exibido.
+            <br>
+            A tag input tem vários atributos, como type, name, value, placeholder, required, etc.
+        </p>
+        <h3>Atributos:</h3>
+        <table>
+            <tr>
+                <th>Atributo</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td>type</td>
+                <td>Define o tipo de controle de formulário a ser exibido.</td>
+            </tr>
+            <tr>
+                <td>name</td>
+                <td>Define o nome do controle de formulário que é enviado para o servidor.</td>
+            </tr>
+            <tr>
+                <td>value</td>
+                <td>Define o valor inicial do controle de formulário.</td>
+            </tr>
+            <tr>
+                <td>placeholder</td>
+                <td>Define um texto de exemplo que é exibido no controle de formulário quando ele está vazio.</td>
+            </tr>
+            <tr>
+                <td>required</td>
+                <td>Define que o controle de formulário deve ser preenchido antes de enviar o formulário.</td>
+            </tr>
+            <tr>
+                <td>pattern</td>
+                <td>Define um padrão que o valor do controle de formulário deve corresponder.</td>
+            </tr>
+            <tr>
+                <td>maxlength</td>
+                <td>Define o número máximo de caracteres que o utilizador pode inserir em um campo de texto.</td>
+            </tr>
+        </table>
+    </article>
+    <article id="textarea">
+        <h1>Textarea &lt; textarea &gt;</h1>
+        <p>
+            A tag &lt; textarea &gt; é usada para criar um controle de formulário que permite ao utilizador inserir texto em várias linhas.
+            <br>
+            A tag textarea tem vários atributos, como name, rows, cols, form, required, etc.
+        </p>
+        <h3>Atributos:</h3>
+        <table>
+            <tr>
+                <th>Atributo</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td>name</td>
+                <td>Define o nome do controle de formulário que é enviado para o servidor.</td>
+            </tr>
+            <tr>
+                <td>rows</td>
+                <td>Define o número de linhas visíveis em um controle de formulário.</td>
+            </tr>
+            <tr>
+                <td>cols</td>
+                <td>Define o número de colunas visíveis em um controle de formulário.</td>
+            </tr>
+            <tr>
+                <td>form</td>
+                <td>Define um ou mais formulários aos quais o controle de formulário pertence.</td>
+            </tr>
+            <tr>
+                <td>required</td>
+                <td>Define que o controle de formulário deve ser preenchido antes de enviar o formulário.</td>
+            </tr>
+        </table>
+    </article>
+    <article id="select">
+        <h1>Select &lt; select &gt;</h1>
+        <p>
+            A tag &lt; select &gt; é usada para criar um controle de lista suspensa.
+            <br>
+            A tag select tem vários atributos, como name, size, multiple, form, required, etc.
+        </p>
+        <h3>Atributos:</h3>
+        <table>
+            <tr>
+                <th>Atributo</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td>name</td>
+                <td>Define o nome do controle de formulário que é enviado para o servidor.</td>
+            </tr>
+            <tr>
+                <td>size</td>
+                <td>Define o número de opções visíveis em um controle de lista suspensa.</td>
+            </tr>
+            <tr>
+                <td>multiple</td>
+                <td>Define que o utilizador pode selecionar mais de uma opção em um controle de lista suspensa.</td>
+            </tr>
+            <tr>
+                <td>form</td>
+                <td>Define um ou mais formulários aos quais o controle de lista suspensa pertence.</td>
+            </tr>
+            <tr>
+                <td>required</td>
+                <td>Define que o controle de formulário deve ser preenchido antes de enviar o formulário.</td>
+            </tr>
+        </table>
+    </article>
+    <article id="button">
+        <h1>Button &lt; button &gt;</h1>
+        <p>
+            A tag &lt; button &gt; define um botão clicável.
+            <br>
+            O botão pode ter conteúdo em seu interior, como texto ou imagens.
+            <br>
+            A tag button tem vários atributos, como type, name, value, form, formaction, formenctype, formmethod, formnovalidate, formtarget, etc.
+        </p>
+        <h3>Atributos:</h3>
+        <table>
+            <tr>
+                <th>Atributo</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td>type</td>
+                <td>Define o tipo de botão.</td>
+            </tr>
+            <tr>
+                <td>name</td>
+                <td>Define o nome do botão que é enviado para o servidor.</td>
+            </tr>
+            <tr>
+                <td>value</td>
+                <td>Define o valor inicial do botão.</td>
+            </tr>
+            <tr>
+                <td>form</td>
+                <td>Define um ou mais formulários aos quais o botão pertence.</td>
+            </tr>
+            <tr>
+                <td>formaction</td>
+                <td>Define para onde os dados do formulário devem ser enviados.</td>
+            </tr>
+            <tr>
+                <td>formenctype</td>
+                <td>Define como os dados do formulário devem ser codificados ao enviá-los para o servidor.</td>
+            </tr>
+            <tr>
+                <td>formmethod</td>
+                <td>Define o método HTTP para enviar os dados do formulário.</td>
+            </tr>
+            <tr>
+                <td>formnovalidate</td>
+                <td>Define que o formulário não deve ser validado quando enviado.</td>
+            </tr>
+            <tr>
+                <td>formtarget</td>
+                <td>Define onde abrir o resultado do envio do formulário.</td>
+            </tr>
+        </table>
+    </article>	
+</section>
+    
+</body>
+</html>
