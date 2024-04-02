@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 1</title>
+</head>
+<body>
+    <section>
+        <article>
+            <h1>HTML Formulários</h1>
+            <form action="action_page.php" method="post">
+                <label for="nome">Nome:</label>
+                <br>
+                <input type="text" id="nome" name="nome" required>
+                <br>
+                <label for="apelido">Apelido:</label>
+                <br>
+                <input type="text" id="apelido" name="apelido" required>
+                <br>
+                <br>
+                <button type="submit">Submeter</button>
+                <p>
+                    Se clicar no botão "Submeter", os dados do formulário serão enviados para um ficheiro chamado "action_page.php".
+                </p>
+            </form>
+        </article>
+        <article>
+            <h2>Campo input de texto</h2>
+            <form action="action_page.php" method="post">
+                <label for="nome">Nome:</label>
+                <br>
+                <input type="text" id="nome" name="nome" required>
+                <br>
+                <label for="apelido">Apelido:</label>
+                <br>
+                <input type="text" id="apelido" name="apelido" required>
+                <br>
+                <h2>Radio Buttons</h2>
+                <p>
+                    Assinala a tua linguagem web favorita:
+                </p>
+                <input type="radio" id="html" name="fav_language" value="html">
+                <label for="html">HTML</label>
+                <br>
+                <input type="radio" id="css" name="fav_language" value="css">
+                <label for="css">CSS</label>
+                <br>
+                <input type="radio" id="javascript" name="fav_language" value="javascript">
+                <label for="javascript">JavaScript</label>
+                <br>
+                <h2>Checkboxes</h2>
+                <p>
+                    <strong>O input type="checkbox"</strong> define um checkbox, onde se pode selecionar mais do que uma opção, por exemplo:
+                </p>
+                <p>
+                    Eu tenho os seguintes veiculos:
+                </p>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bicicleta">
+                <label for="vehicle1"> Bicicleta </label>
+                <br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Carro">
+                <label for="vehicle2"> Carro </label>
+                <br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Mota">
+                <label for="vehicle3"> Mota </label>
+                <br>
+                <br>
+                <button type="submit">Submeter</button>
+
+                
+        </article>
+    </section>
+</body>
+</html>
