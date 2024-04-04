@@ -1,0 +1,24 @@
+body {
+    background-color: #c6c6c6;
+}
+.container{
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+
+}
+
+img{
+    max-width: 100%;
+}
+.text h1{
+    font-family: Verdana, Arial;
+    font-size: 20px;
+    padding-left: 20px;
+    color: white;   
+}
+.text p{
+    padding-left: 20px;
+    font-family:Verdana, Arial;
+    font-size: 1.5pe;
+}
