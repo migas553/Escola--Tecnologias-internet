@@ -4,12 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercicio 2</title>
-    <?php
-    $nome = $_POST['nome'];
-    $apelido = $_POST['apelido'];
 
-    // Here you can write the code to save these variables to a database or a file
-    ?>
+
 </head>
 <body>
 <section>
@@ -32,11 +28,94 @@
         <br>
         <br>
         <button type="submit">Submeter</button>
-        <p>
-            Se clicar no botão "Submeter", os dados do formulário serão enviados para um ficheiro chamado "action_page.php".
-        </p>
     </form>
     </article>
+    <article>
+    <h1>
+        O atributo: Novalidate
+    </h1>
+    <p>
+        O atributo novalidate indica que a entrada do formulário não deve ser  validada quando submetida. <br>
+    </p>
+    <form action="action_page.php" method="post" novalidate>
+        <label for="email">Insira o seu email: </label>
+        <input type="text" id="email" name="email">
+        <br>
+        <button type="submit">Submeter</button>
+    </form>
+    <p>
+        <b>Nota:</b> O atributo novalidate não é suportado no safari 10 ou superior
+    </p>
+    </article>
+    <article>
+    <h1>
+        O elemento select
+    </h1>
+    <p>
+        O elemento select, define uma lista drop-down. <br>
+    </p>
+    <form>
+        <label for="carros">
+            Escolha uma marca de carro:
+        </label>
+        <select name="carros" id="carros">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select> 
+        <button type="submit">Submeter</button>  
+    </form>
+    </article>
+    <article>
+    <h2>
+        Visible options value
+    </h2>
+    <p>
+        O atributo size, define o número de opções visíveis num elemento select.
+    </p>        
+    <form>
+        <label for="carros">
+            Escolha uma marca de carro:
+        </label>
+        <select name="carros" id="carros" size="4">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select>
+        <p></p>
+        <br> 
+        <button type="submit">Submeter</button>
+    </form>
+    </article>
+    <article>
+    <h2>
+        Permitir múltiplas seleções
+    </h2>
+    <p>
+        O atributo "multiple", permite que o utilizador selecionar  mais do que um valor
+    </p>
+    <form>
+        <label for="carros">
+            Escolha uma marca de carro:
+        </label>
+        <select name="carros" id="carros" size="4" multiple>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select>
+        <p></p>
+        <br> 
+        <button type="submit">Submeter</button>
+    </form>
+    <p>
+        Mantenha a tecla CTRL pressionada para selecionar mais do que uma opção
+    </p>
+
+
+    
 </section>
 </body>
 </html>
