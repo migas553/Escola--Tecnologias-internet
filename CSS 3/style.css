@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Segoe Ui;
+}
+.header {
+    display: flex;
+    border-bottom: 4px solid darkgreen;
+    position: relative;
+}
+.header-1 {
+    background-color: #445b16;
+    width: 10%;
+}
+.header-2 {
+    background-color: olivedrab;
+    width: 80%;
+    color: white;
+    padding: 20px;
+}
+.header-3 {
+    background-color: #445b16;
+    width: 10%;
+}
+.header-nav {
+    /* posicionamento */
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    bottom: -12px;
+    /* estilização */
+    background-color: darkgreen ;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+}
+
+/* Estilização da parte central */
+
+.body{
+    display: flex;
+}
+.body-left, .body-right {
+    background-color: lightgray;
+    width: 10%;
+}
+.body-center {
+    background-color: white;
+    width: 80%;
+}
+
+/* Conteudo parte central  */
+.center-1 {
+    padding: 8px;
+    margin-top: 20px;
+}
+.center-1 p {
+    padding: 2px;
+}
+
+.center-2 {
+    margin: 8px;
+    /* background-color: tomato; */
+   
+}
+
+/* Conteudo parte do formulario */
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-left , .contact-right{
+    width: 20%;
+    margin-left: 20px;
+}
+
+.contact-center {
+    /* estilo */
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    /* posicionamento */
+    width: 40%; 
+    padding: 4px
+}
+
+.contact-fields {
+
+    display: flex;
+    justify-content: flex-end;
+    margin: 2px;
+
+}
+.contact-center label {    
+    padding: 2px;
+    margin: 4px;    
+    width: 40%;
+    text-align: right;
+
+
+}
+.contact-center input, .contact-center textarea {
+    width: 60%;
+    margin: 2px;
+    border: 1px solid black;
+    
+}
+
+.contact-center span {
+    justify-content: flex-start;
+
+}
+.contact-center span button {
+
+    width: 40%;
+    margin: 2px;
+    border: 1px solid black;
+    
+}
+.contact-right img{
+    width: 200px;
+}
+
+.center-3 {
+    margin: 8px;
+    /* background-color: tomato; */
+    margin-left: 20px;
+   
+}
+.center-3 li{
+    margin-left: 20px;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: olivedrab;
+    padding: 40px;
+    margin-top: 0px;
+}
+
+.footer a{
+    color: white;
+}
